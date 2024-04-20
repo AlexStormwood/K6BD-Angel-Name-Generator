@@ -1,9 +1,15 @@
+@font-face {
+	font-family: "Amatic SC";
+	src: url("./AmaticSC-Bold.ttf") format("truetype");
+}
+
 * {
 	margin: 0;
 	padding: 0;
 	font-family: "Amatic SC", sans-serif;
 	font-weight: 700;
 	font-style: bold;
+	font-size: xx-large;
 }
 body {
 	height: 100dvh;
@@ -23,4 +29,9 @@ h3, button {
 
 h1 {
 	font-size: 108px;
+	filter:drop-shadow(5px 5px #000000);
+}
+
+button {
+	padding: 1%;
 }
