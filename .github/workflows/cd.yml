@@ -12,7 +12,7 @@ jobs:
     runs-on: ubuntu-latest
     name: HTML dir to gh-pages
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v4
         with:
           fetch-depth: 0
       - name: Running the HTML dir to gh-pages Action
